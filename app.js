@@ -1,5 +1,5 @@
 let listadenumerosorteados = [];
-let quantidadelimite = 1000
+let quantidadelimite = 100
 let numerosecreto = numeroaleatorio();
 let tentativas = 1
 
@@ -11,7 +11,7 @@ function textonatela(tag, texto) {
 
 function mensageminicial() {
     textonatela('h1', 'Jogo do Número Secreto');
-    textonatela('p', 'Escolha um número entre 1 e 1000');
+    textonatela('p', 'Escolha um número entre 1 e 100');
 
 }
 
